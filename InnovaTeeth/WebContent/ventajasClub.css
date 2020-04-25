@@ -1,0 +1,95 @@
+@charset "ISO-8859-1";
+
+body {
+	font-family: 'Signika', sans-serif;
+	font-size: 21px;
+	background-color: white;
+}
+
+header {
+	height: 13%;
+	background-color: #000000;
+	padding: 10px 20px;
+	box-shadow: 0px -8px 25px #6d6d6d;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 97%;
+}
+
+.listaMenu {
+	padding: 0;
+}
+
+.listaMenu li {
+	display: inline;
+}
+
+.listaMenu li a {
+	font-family: Arial;
+	font-size: 16px;
+	text-decoration: none;
+	position: relative;
+	float: right;
+	right: 50px;
+	padding: 10px;
+	color: #fff;
+}
+
+.listaMenu li a:hover {
+	background-color: #2586d7;
+	margin-top: -2;
+	padding-bottom: 12px;
+	]
+}
+
+.logoPrincipal {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100px;
+}
+
+@font-face {
+	font-family: Gruppo;
+	src: url(/pruebaArboles/fuentes/Gruppo-Regular.ttf);
+}
+
+.rectanguloGris {
+	letter-spacing: 2px;
+	position: absolute;
+	top: 99px;
+	left: 0;
+	background-color: gray;
+	height: 150px;
+	width: 100%;
+	text-align: center;
+	font-stretch: ultra-expanded;
+	font-size: 26px;
+	position: absolute;
+}
+
+.imagenTarjeta {
+	position: absolute;
+	top: 250px;
+	left: 0;
+	width: 100%;
+}
+
+.tarjeta {
+	padding-top: 50px;
+	display: block;
+	margin: auto;
+	display: block;
+}
+
+
+
+.textoVentajas {
+	
+	position: absolute;
+	top: 80%;
+	right:10%;
+	left: 10%;
+	
+}

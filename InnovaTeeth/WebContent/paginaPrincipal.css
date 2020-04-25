@@ -1,0 +1,135 @@
+@charset "ISO-8859-1";
+
+
+body {
+	background-image:url("/pruebaArboles/imagenes/fotoPortada.jpg");
+	font-family: 'Signika', sans-serif;
+	font-size: 21px;
+	background-color: white;
+} 
+
+header {
+	height: 13%;
+	background-color: #000000;
+	padding: 10px 20px;
+	box-shadow: 0px -8px 25px #6d6d6d;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 97%;
+	
+}
+
+
+.listaMenu{
+	padding: 0;	
+}
+
+
+
+.listaMenu li {
+	
+ display: inline;
+ }
+
+.listaMenu li a {
+ font-family: Arial;
+ font-size: 16px;
+ text-decoration: none;
+ position: relative;
+ float: right;
+ right: 50px;
+ padding: 10px;
+
+ color: #fff;
+ }
+
+.listaMenu li a:hover {
+ background-color: #2586d7;
+ margin-top: -2;
+ padding-bottom: 12px;]
+ }
+
+.tarjetaInicio{
+	position: absolute;
+	top:35%;
+	right:3%;
+	width: 10cm;
+	height: 6cm;
+	
+	border-radius: 60px;
+	background-color: black;;
+}
+
+.fotoTarjetaInicio{
+	position: absolute;
+	top:6.5%;
+	right: 5%;
+		
+}
+
+.logoPrincipal{
+	position: absolute;
+	top:0;
+	left: 0;
+	height:100px;
+		
+}
+
+.camposTarjeta{
+	position: absolute;
+	border-color: red;
+	border-style: solid 2px;
+	bottom: 0px;
+	
+	
+}
+@font-face {
+font-family: Gruppo;
+src: url(/pruebaArboles/fuentes/Gruppo-Regular.ttf);
+}
+
+
+.camposTarjeta p1{
+	text-align: center;
+	font-family:Gruppo,serif;
+	font-size:16px;
+	position: relative;
+	left: 25px;
+	bottom: 10px;
+	
+	}
+	
+	.fotoPortada2{
+	position: fixed;
+	height:84%;
+	left:65%;
+	bottom: 0px;}
+	
+
+.botonAceptar{
+	
+	position: absolute;
+	right: 5%;
+	bottom: 10%;
+}
+
+.form-input{
+	width: 40%;
+	background-color: black;
+	color: white;
+}
+
+.errorLogin{
+	
+	position: absolute;
+	top:85%;
+	left:25%;
+	
+	font-size:16px;
+	color: red;
+}
+
+
+
+
