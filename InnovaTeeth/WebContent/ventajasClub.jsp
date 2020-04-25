@@ -6,7 +6,7 @@
 <meta charset="ISO-8859-1">
 
 
-<link rel="stylesheet" type="text/css" href="ventajasClub.css" />
+<link rel="stylesheet" type="text/css" href="css/ventajasClub.css" />
 <title>Ventajas del Club</title>
 </head>
 <body>

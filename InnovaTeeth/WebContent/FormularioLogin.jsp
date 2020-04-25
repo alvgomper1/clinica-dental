@@ -13,8 +13,8 @@
 <head>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
 
-    <link rel="stylesheet" type="text/css" href="cssRegistro.css"/>
-<script language= "JavaScript" type="text/javascript" src="javascriptFormulario.js">
+    <link rel="stylesheet" type="text/css" href="css/cssRegistro.css"/>
+
 
  </script>
 
