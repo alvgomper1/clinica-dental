@@ -17,7 +17,7 @@ import modelo.Usuario;
 @WebServlet("/ControladorSession")
 public class ControladorSession extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
+       private static final String ERROR_NOTIFICACIONES = "Tienes que iniciar sesión";
 
     public ControladorSession() {
         super();
@@ -33,7 +33,11 @@ public class ControladorSession extends HttpServlet {
 		Usuario miUsuario= (Usuario) misession.getAttribute("usuario");
 		
 		if (miUsuario==null) {
-			System.out.println("tienes que registrarte para hacer eso");
+			if (url.equals("notificaciones.jsp")) {
+				request.setAttribute("errorLogin", ERROR_NOTIFICACIONES);
+			}
+			
+		
 			request.getRequestDispatcher("/paginaPrincipal.jsp").forward(request, response);
 		}
 		else {

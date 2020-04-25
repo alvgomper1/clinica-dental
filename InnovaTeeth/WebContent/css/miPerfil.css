@@ -1,0 +1,113 @@
+@charset "ISO-8859-1";
+
+
+
+
+header {
+	height: 13%;
+	background-color: #000000;
+	padding: 10px 20px;
+	box-shadow: 0px -8px 25px #6d6d6d;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 97%;
+	
+}
+
+
+.listaMenu{
+	padding: 0;	
+}
+
+
+
+.listaMenu li {
+	
+ display: inline;
+ }
+
+.listaMenu li a {
+ font-family: Arial;
+ font-size: 16px;
+ text-decoration: none;
+ position: relative;
+ float: right;
+ right: 50px;
+ padding: 10px;
+
+ color: #fff;
+ }
+
+.listaMenu li a:hover {
+ background-color: #2586d7;
+ margin-top: -2;
+ padding-bottom: 12px;]
+ }
+
+
+
+
+
+.logoPrincipal{
+	position: absolute;
+	top:0;
+	left: 0;
+	height:100px;
+		
+}
+
+
+.contenedorPrincipal{
+	position: absolute;
+	left:20%;
+	top:16%;
+	border-style: solid;
+	
+	height:80%;
+	width:60%;
+}
+
+
+.contenedorMenuLateral{
+	position: relative;
+	left:0px;
+	top;0px;
+	border-style: solid;
+	border-color:red;
+	height:100%;
+	width:12.5%;
+	
+	
+	
+}
+.lateral{
+	top:0px;
+	height:80%;
+	position:relative;
+	border-color:green;
+	border-style:solid;
+	list-style:none;
+	left:0px;
+}
+.lateral li{
+	position:relative;
+	right:90%;
+	width:180%;
+	height:20%;
+	border-color:yellow;
+	border-style:solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

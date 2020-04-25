@@ -2,7 +2,7 @@
 
 
 body {
-	background-image:url("/pruebaArboles/imagenes/fotoPortada.jpg");
+	background-image:url("/InnovaTeeth/imagenes/fotoPortada.jpg");
 	font-family: 'Signika', sans-serif;
 	font-size: 21px;
 	background-color: white;
@@ -86,7 +86,7 @@ header {
 }
 @font-face {
 font-family: Gruppo;
-src: url(/pruebaArboles/fuentes/Gruppo-Regular.ttf);
+src: url(/InnovaTeeth/fuentes/Gruppo-Regular.ttf);
 }
 
 

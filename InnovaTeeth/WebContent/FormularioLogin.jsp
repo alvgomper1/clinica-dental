@@ -16,8 +16,6 @@
     <link rel="stylesheet" type="text/css" href="css/cssRegistro.css"/>
 
 
- </script>
-
 <!-- <style type="text/css"> -->
 <meta charset="ISO-8859-1">
 <title>Login</title>

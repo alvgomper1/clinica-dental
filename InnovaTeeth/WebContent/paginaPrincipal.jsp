@@ -6,8 +6,6 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-
-
 <link rel="stylesheet" type="text/css" href="css/paginaPrincipal.css" />
 <title>Pagina de inicio</title>
 </head>
@@ -18,7 +16,7 @@
 			class="logoPrincipal" src="/InnovaTeeth/imagenes/logoPrincipal.png"></a>
 
 		<ul class="listaMenu">
-			<li><a href="/InnovaTeeth/notificaciones.jsp">
+			<li><a href="/InnovaTeeth/ControladorSession?url=notificaciones.jsp">
 					Notificaciones </a></li>
 			<li><a href="/InnovaTeeth/ventajasClub.jsp"> Ventajas Club
 			</a></li>
