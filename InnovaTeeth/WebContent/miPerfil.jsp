@@ -13,17 +13,22 @@
 </head>
 <body>
 	<header>
-		<a href="/InnovaTeeth/paginaPrincipal.jsp"> <img
+		<a href="/InnovaTeeth/ControladorSession?url=miPerfil.jsp"> <img
 			class="logoPrincipal" src="/InnovaTeeth/imagenes/logoPrincipal.png"></a>
 
 		<ul class="listaMenu">
-			<li><a href="/InnovaTeeth/notificaciones.jsp">
+		<li><a href="/InnovaTeeth/ControladorSession?disconnect=true">
+					Cerrar sesión </a></li>
+			<li><a href="/InnovaTeeth/ControladorSession?url=notificaciones.jsp">
 					Notificaciones </a></li>
-			<li><a href="/InnovaTeeth/ventajasClub.jsp"> Ventajas Club </a></li>
-			<li><a href="/InnovaTeeth/tratamientos.jsp"> Tratamientos </a></li>
-			<li><a href="/InnovaTeeth/nosotros.jsp"> Nosotros </a></li>
-			<li><a href="/InnovaTeeth/instalaciones.jsp"> Instalaciones
+			<li><a href="/InnovaTeeth/ventajasClub.jsp"> Ventajas Club
 			</a></li>
+			<li><a href="/InnovaTeeth/tratamientos.jsp"> Tratamientos
+			</a></li>
+			<li><a href="/InnovaTeeth/nosotros.jsp"> Nosotros </a></li>
+			<li><a href="/InnovaTeeth/instalaciones.jsp">
+					Instalaciones </a></li>
+					
 
 		</ul>
 

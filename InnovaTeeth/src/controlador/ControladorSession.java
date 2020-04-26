@@ -29,9 +29,18 @@ public class ControladorSession extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		HttpSession misession= (HttpSession) request.getSession();
+		String cerrarSesion = "";
+		cerrarSesion=request.getParameter("disconnect");
 		String url = request.getParameter("url");
 		Usuario miUsuario= (Usuario) misession.getAttribute("usuario");
 		
+		
+		if (cerrarSesion!=null && cerrarSesion.equals("true")) {
+			System.out.println("has elegido cerrar sesion");
+			misession.invalidate();
+		    response.sendRedirect("/InnovaTeeth/paginaPrincipal.jsp");
+		}
+		else {
 		if (miUsuario==null) {
 			if (url.equals("notificaciones.jsp")) {
 				request.setAttribute("errorLogin", ERROR_NOTIFICACIONES);
@@ -44,6 +53,11 @@ public class ControladorSession extends HttpServlet {
 		request.getRequestDispatcher(url).forward(request, response);
 		System.out.println("Se ha redirigido a: "+url);
 		System.out.println("El usuario es: "+miUsuario.getNombre());}
+		
+		
+		
+		}
+		
 	}
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
