@@ -1,7 +1,8 @@
 @charset "ISO-8859-1";
 
-
-
+body {
+	background-color: #dddddd;
+}
 
 header {
 	height: 13%;
@@ -12,102 +13,154 @@ header {
 	top: 0;
 	left: 0;
 	width: 97%;
-	
 }
 
-
-.listaMenu{
-	padding: 0;	
+.listaMenu {
+	padding: 0;
 }
-
-
 
 .listaMenu li {
-	
- display: inline;
- }
+	display: inline;
+}
 
 .listaMenu li a {
- font-family: Arial;
- font-size: 16px;
- text-decoration: none;
- position: relative;
- float: right;
- right: 50px;
- padding: 10px;
-
- color: #fff;
- }
+	font-family: Arial;
+	font-size: 16px;
+	text-decoration: none;
+	position: relative;
+	float: right;
+	right: 50px;
+	padding: 10px;
+	color: #fff;
+}
 
 .listaMenu li a:hover {
- background-color: #2586d7;
- margin-top: -2;
- padding-bottom: 12px;]
- }
+	background-color: #2586d7;
+	margin-top: -2;
+	padding-bottom: 12px;
+	]
+}
 
-
-
-
-
-.logoPrincipal{
+.logoPrincipal {
 	position: absolute;
-	top:0;
+	top: 0;
 	left: 0;
-	height:100px;
-		
+	height: 100px;
 }
 
-
-.contenedorPrincipal{
+.contenedorPrincipal {
 	position: absolute;
-	left:20%;
-	top:16%;
-	border-style: solid;
-	
-	height:80%;
-	width:60%;
+	left: 10%;
+	top: 16%;
+	/* 	border-style: solid; */
+	height: 100%;
+	width: 80%;
+	position: absolute;
 }
 
-
-.contenedorMenuLateral{
+.contenedorMenuLateral {
+	float: left;
 	position: relative;
-	left:0px;
-	top;0px;
+	left: 0px;
+	top: 0px;
+	/* 	border-style: solid; */
+	/* 	border-color: red; */
+	height: 100%;
+	width: 12.5%;
+}
+
+.contenedorDerecha {
+	background-color: white;
+	position: relative;
+	right: 10px;
+	float: right;
+	/* 	border-style: solid; */
+	/* 	border-color: red; */
+	height: 100%;
+	width: 85%;
+}
+
+.lateral {
+	top: -2.5%;
+	height: 90%;
+	position: relative;
+	/* 	border-color: green; */
+	/* 	border-style: solid; */
+	list-style: none;
+	left: 0px;
+}
+
+.lateral li {
+	background-color: #ffffff;
+	position: relative;
+	text-align: center;
+	font-weight: bold;
+	right: 50%;
+	width: 160%;
+	height: 25%;
+	border-color: #dddddd;
+	border-bottom-style: solid;
+	border-right-style: solid;
+	border-spacing: 0px;
+	width: 160%;
+	right: 45%;
+	border-spacing: 0px
+}
+
+.superior {
+	border-top-style: solid;
+	border-color: #dddddd;
+}
+
+p {
+	position: relative;
+	top: 20%;
+}
+
+.lateral li.seleccionable:hover {
+	background-color: #ffd11a;
+}
+
+.lateral li.seleccionable:active {
+	background-color: #ffff4f;
+}
+
+.lateral li:focus {
+	background-color: red;
+}
+
+.imagenesLista {
+	position: relative;
+	width: 25%;
+	height: 25%;
+	left: 37.5%;
+	top: 20%;
+	display: block;
+}
+
+.nombreGris {
+	position: relative;
+	background-color: #616161;
 	border-style: solid;
-	border-color:red;
-	height:100%;
-	width:12.5%;
-	
-	
-	
-}
-.lateral{
-	top:0px;
-	height:80%;
-	position:relative;
-	border-color:green;
-	border-style:solid;
-	list-style:none;
-	left:0px;
-}
-.lateral li{
-	position:relative;
-	right:90%;
-	width:180%;
-	height:20%;
-	border-color:yellow;
-	border-style:solid;
+	border-color: transparent;
+	width: 100%;
+	text-align: center;
+	color: white;
 }
 
+.fotoCara {
+	position: relative;
+	height: 70%;
+}
 
+.fotoCara img {
+	width: 100%;
+	height: auto;
+}
 
-
-
-
-
-
-
-
-
-
-
+@
+supports (object-fit: cover ){ .fotoCara img {
+	height: 100%;
+	object-fit: cover;
+	object-position: center center;
+}
