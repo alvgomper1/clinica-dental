@@ -21,7 +21,7 @@
 
 	<div class="overlay">
 
-		<form action="/InnovaTeeth/ControllerUsuario" method="post">
+		<form action="ControllerUsuario" method="post">
 
 			<div class="con">
 

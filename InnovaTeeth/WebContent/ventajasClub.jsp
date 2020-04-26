@@ -13,8 +13,8 @@
 
 	<header>
 
-		<a href="/InnovaTeeth/ControladorSession?url=miPerfil.jsp"> <img
-			class="logoPrincipal" src="/InnovaTeeth/imagenes/logoPrincipal.png">
+		<a href="ControladorSession?url=miPerfil.jsp"> <img
+			class="logoPrincipal" src="imagenes/logoPrincipal.png">
 		</a>
 
 
@@ -26,11 +26,11 @@
 
 		<ul class="listaMenu">
 			<li><a
-				href="/InnovaTeeth/ControladorSession?url=notificaciones.jsp">Notificaciones </a></li>
-			<li><a href="/InnovaTeeth/ventajasClub.jsp"> Ventajas Club </a></li>
-			<li><a href="/InnovaTeeth/tratamientos.jsp"> Tratamientos </a></li>
-			<li><a href="/InnovaTeeth/nosotros.jsp"> Nosotros </a></li>
-			<li><a href="/InnovaTeeth/instalaciones.jsp"> Instalaciones
+				href="ControladorSession?url=notificaciones.jsp">Notificaciones </a></li>
+			<li><a href="ventajasClub.jsp"> Ventajas Club </a></li>
+			<li><a href="tratamientos.jsp"> Tratamientos </a></li>
+			<li><a href="nosotros.jsp"> Nosotros </a></li>
+			<li><a href="instalaciones.jsp"> Instalaciones
 			</a></li>
 
 		</ul>
@@ -49,7 +49,7 @@
 
 	<div class="imagenTarjeta">
 
-		<img class="tarjeta" src="/InnovaTeeth/imagenes/tarjeta.png">
+		<img class="tarjeta" src="imagenes/tarjeta.png">
 	</div>
 
 	<div class="textoVentajas" align="justify">

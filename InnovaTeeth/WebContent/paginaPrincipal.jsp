@@ -12,33 +12,33 @@
 <body>
 
 	<header>
-		<a href="/InnovaTeeth/paginaPrincipal.jsp"> <img
-			class="logoPrincipal" src="/InnovaTeeth/imagenes/logoPrincipal.png"></a>
+		<a href="paginaPrincipal.jsp"> <img
+			class="logoPrincipal" src="imagenes/logoPrincipal.png"></a>
 
 		<ul class="listaMenu">
-			<li><a href="/InnovaTeeth/ControladorSession?url=notificaciones.jsp">
+			<li><a href="ControladorSession?url=notificaciones.jsp">
 					Notificaciones </a></li>
-			<li><a href="/InnovaTeeth/ventajasClub.jsp"> Ventajas Club
+			<li><a href="ventajasClub.jsp"> Ventajas Club
 			</a></li>
-			<li><a href="/InnovaTeeth/tratamientos.jsp"> Tratamientos
+			<li><a href="tratamientos.jsp"> Tratamientos
 			</a></li>
-			<li><a href="/InnovaTeeth/nosotros.jsp"> Nosotros </a></li>
-			<li><a href="/InnovaTeeth/instalaciones.jsp">
+			<li><a href="nosotros.jsp"> Nosotros </a></li>
+			<li><a href="instalaciones.jsp">
 					Instalaciones </a></li>
 
 		</ul>
 
 	</header>
 
-	<img class="fotoPortada2" src="/InnovaTeeth/imagenes/sillon.png">
+	<img class="fotoPortada2" src="imagenes/sillon.png">
 
 
 	<div class="tarjetaInicio">
 		<img class="fotoTarjetaInicio"
-			src="/InnovaTeeth/imagenes/tarjetaVisita.png">
+			src="imagenes/tarjetaVisita.png">
 
 		<div class="camposTarjeta">
-			<form action="/InnovaTeeth/ControllerUsuario" method="post">
+			<form action="ControllerUsuario" method="post">
 				<p1 style="color: white;">Nº &nbsp&nbspS O C I O:&nbsp&nbsp <input
 					placeholder="XXXX-XXXXXX" class="form-input" id="txt-input"
 					type="text" required name="nombreUsuario" maxlength="10"
@@ -89,7 +89,7 @@
 		<div class="botonFormulario">
 			<input type="hidden" name="opcion" value="consultar" required>
 			<input class="botonAceptar" type="image" name="submit"
-				src="/InnovaTeeth/imagenes/botonDiente.png" border="0"
+				src="imagenes/botonDiente.png" border="0"
 				alt="Aceptar" style="width: 50px;" />
 
 

@@ -38,7 +38,7 @@ public class ControladorSession extends HttpServlet {
 		if (cerrarSesion!=null && cerrarSesion.equals("true")) {
 			System.out.println("has elegido cerrar sesion");
 			misession.invalidate();
-		    response.sendRedirect("/InnovaTeeth/paginaPrincipal.jsp");
+		    response.sendRedirect("paginaPrincipal.jsp");
 		}
 		else {
 		if (miUsuario==null) {
