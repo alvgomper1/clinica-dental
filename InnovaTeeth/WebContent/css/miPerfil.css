@@ -38,7 +38,7 @@ header {
 	background-color: #2586d7;
 	margin-top: -2;
 	padding-bottom: 12px;
-	]
+	
 }
 
 .logoPrincipal {
@@ -125,7 +125,7 @@ p {
 	background-color: #ffff4f;
 }
 
-.lateral li:focus {
+.lateral li:enabled {
 	background-color: red;
 }
 
@@ -158,9 +158,45 @@ p {
 	height: auto;
 }
 
-@
-supports (object-fit: cover ){ .fotoCara img {
+@supports (object-fit: cover ){ .fotoCara img {
 	height: 100%;
 	object-fit: cover;
 	object-position: center center;
+}}
+
+.contenedor1{
+/* 	muestra la informacion del perfil */
+width:90%;
+	height:100%;
+	position:absolute;
+	border-style: solid;
+	left :5%;
+	background-color: #ffffff;
+	z-index: 3;
+
+	
+}
+.contenedor2 {
+	/* 	muestra la informacion de datos clinicos */
+	width:90%;
+	height:100%;
+	position:absolute;
+	border-style: solid;
+	left :5%;
+	background-color: #ffffff;
+	z-index: 2;
+
+	
+}
+.contenedor3{
+	/* 	muestra la informacion resumen de visitas */
+	width:90%;
+	height:100%;
+	position:absolute;
+	border-style: solid;
+	left :5%;
+	background-color: #ffffff;
+	z-index: 1;
+	
+
 }
