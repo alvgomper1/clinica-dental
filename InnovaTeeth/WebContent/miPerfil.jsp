@@ -1,5 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
+
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,18 +21,15 @@
 			class="logoPrincipal" src="imagenes/logoPrincipal.png"></a>
 
 		<ul class="listaMenu">
-		<li><a href="ControladorSession?disconnect=true">
-					Cerrar sesión </a></li>
+			<li><a href="ControladorSession?disconnect=true"> Cerrar
+					sesión </a></li>
 			<li><a href="ControladorSession?url=notificaciones.jsp">
 					Notificaciones </a></li>
-			<li><a href="ventajasClub.jsp"> Ventajas Club
-			</a></li>
-			<li><a href="tratamientos.jsp"> Tratamientos
-			</a></li>
+			<li><a href="ventajasClub.jsp"> Ventajas Club </a></li>
+			<li><a href="tratamientos.jsp"> Tratamientos </a></li>
 			<li><a href="nosotros.jsp"> Nosotros </a></li>
-			<li><a href="instalaciones.jsp">
-					Instalaciones </a></li>
-					
+			<li><a href="instalaciones.jsp"> Instalaciones </a></li>
+
 
 		</ul>
 
@@ -72,7 +73,6 @@
 		<div class="contenedorDerecha">
 			<div id="id1" class="contenedor1">
 				<h1>Aqui van los datos del perfil</h1>
-
 			</div>
 			<div id="id2" class="contenedor2">
 				<h1>Aqui van los datos clinicos</h1>
@@ -80,14 +80,7 @@
 			<div id="id3" class="contenedor3">
 				<h1>Aqui va el resumen de visitas</h1>
 			</div>
-
-
-
-
-
 		</div>
-
-
 	</div>
 
 	<script type="text/javascript">
@@ -117,5 +110,12 @@
 
 		}
 	</script>
+	<%			HttpSession misession= (HttpSession) request.getSession(); Object miUsuario=  (Object) misession.getAttribute("usuario"); %>
+<% if(miUsuario==null){ %>
+<script type="text/javascript">
+location.href="paginaPrincipaal.jsp";</script>
+<% response.sendRedirect("paginaPrincipal.jsp");%>
+<%  } %>
+	
 </body>
 </html>

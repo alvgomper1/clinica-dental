@@ -4,7 +4,14 @@
 	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
+
+
 <head>
+<style type="text/css">
+body {
+	background-image:url("imagenes/fotoPortada.jpg");
+}
+</style>
 <meta charset="ISO-8859-1">
 <link rel="stylesheet" type="text/css" href="css/paginaPrincipal.css" />
 <title>Pagina de inicio</title>
@@ -12,7 +19,7 @@
 <body>
 
 	<header>
-		<a href="paginaPrincipal.jsp"> <img
+		<a href="ControladorSession?url=paginaPrincipal.jsp"> <img
 			class="logoPrincipal" src="imagenes/logoPrincipal.png"></a>
 
 		<ul class="listaMenu">

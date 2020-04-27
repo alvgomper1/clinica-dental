@@ -50,12 +50,18 @@ public class ControladorSession extends HttpServlet {
 			request.getRequestDispatcher("/paginaPrincipal.jsp").forward(request, response);
 		}
 		else {
+			if (url.equals("paginaPrincipal.jsp")) {
+				 response.sendRedirect("miPerfil.jsp");
+			}
+			else {
+				
+			
 		request.getRequestDispatcher(url).forward(request, response);
 		System.out.println("Se ha redirigido a: "+url);
 		System.out.println("El usuario es: "+miUsuario.getNombre());}
 		
 		
-		
+		}
 		}
 		
 	}
