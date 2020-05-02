@@ -1,0 +1,110 @@
+@charset "ISO-8859-1";
+
+.header {
+	position: absolute;
+	height: 15%;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+	background-color: black;
+}
+
+}
+.listaMenu {
+	
+}
+
+.listaMenu li {
+	top: 10px;
+	display: inline;
+}
+
+.listaMenu li a {
+	font-family: Arial;
+	font-size: 16px;
+	text-decoration: none;
+	position: relative;
+	top: 10px;
+	float: right;
+	right: 50px;
+	padding: 10px;
+	color: #fff;
+	float: right;
+}
+
+.listaMenu li a:hover {
+	background-color: #2586d7;
+	margin-top: -2;
+	padding-bottom: 12px;
+	]
+}
+
+.logoPrincipal {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+}
+
+@font-face {
+	font-family: Gruppo;
+	src: url(fuentes/Gruppo-Regular.ttf);
+}
+
+.contenido {
+	z-index: -1;
+	position: absolute;
+	left: 0px;
+	top: 15%; width : 100%;
+	background-color: #c0c0c0;
+	height: 85%;
+	position: absolute;
+	width: 100%;
+}
+
+.mapa {
+	position: absolute;
+	float: left;
+	top: 0%;
+	left: 0%;
+	width: 75%;
+	height: 60%;
+}
+
+.infoMapa {
+	padding-left:10px;
+	position: absolute;
+	float: right;
+	background-color: #ffa54a;
+	width: 20%;
+	height: 60%;
+	right: 4.5%;
+}
+
+.cajaDireccion {
+	
+	 width : 100%;
+	height: 25%;
+	width: 100%;
+	/* 	border: 1px solid red; */
+}
+
+.cajaHorario {
+
+	width: 100%;
+	height: 40%;
+	/* 	border: 2px solid red; */
+}
+
+.cajaTelefono {
+
+	width: 100%;
+	height: 30%;
+	/* 	border: 2px solid red; */
+}
+
+.imagenesLista {
+	height: 12%;
+	width: 12%;
+	'
+}
